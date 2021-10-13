@@ -51,6 +51,12 @@ a{
     font-weight: bold;
 }
 
+.lightblue-button{
+    background-color: #8ea1e1;
+    color: white;
+    font-weight: bold;
+}
+
 .small-button{
     padding: 12px 15px;
 }
@@ -149,14 +155,14 @@ h1{
     bottom: 300px;
 }
 
-.banner i{
+.button i{
     position: relative;
     right: 10px;
 }
 
 /* Sezioni a colonne */
 .img-col{
-    width: 65%;
+    width: 70%;
     position: relative;
 }
 
@@ -172,20 +178,20 @@ h1{
 }
 
 .text-col{
-    width: 35%;
+    width: 30%;
     text-align: left;
 }
 
 .text-col .text-col-content{
-    width: 80%;
+    width: 70%;
 }
 
-.text-col-content h2{
+.text-col-content h2, .end-main h2{
     font-size: 50px;
     margin-bottom: 30px;
 }
 
-.text-col-content p{
+.text-col-content p, .end-main p{
     font-size: 23px;
     line-height: 35px;
 }
@@ -199,10 +205,41 @@ h1{
     top: 20px;
 }
 
-.wave-section .clearfix{
+.wave-section .clearfix, .wave-section .last-section{
     background-color: #c7c8ca;
 }
 
 .wave-section .container{
     padding-top: 20px;
+}
+
+.last-section .end-main{
+    text-align: center;
+}
+
+.last-section p{
+    margin: auto 20% 100px;
+}
+
+.invite{
+    background-image: url(../img/stars.svg);
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: contain;
+    width: 42%;
+    margin: auto;
+}
+
+.last-section h3{
+    margin-bottom: 25px;
+    line-height: 120px;
+    vertical-align: bottom;
+}
+
+h3{
+    font-size: 30px;
+}
+
+.last-main-button{
+    padding-bottom: 150px;
 }
