@@ -1,0 +1,87 @@
+/* COMMON */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "Whitney",sans-serif;
+}
+
+.clearfix::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+img{
+    width: 100%;
+}
+
+.container{
+    width: 70%;
+    margin: auto;
+}
+
+.col{
+    float: left;
+}
+
+a{
+    text-decoration: none;
+}
+
+/* HEADER*/
+
+/* Shared Header */
+header{
+    background-color: #3161e0;
+    font-size: 17px;
+}
+
+.logo, .login{
+    width: 15%;
+}
+
+.sub-menu{
+    width: 70%;
+}
+
+/* Logo */
+.logo img{
+    width: 50%;
+    vertical-align: middle;
+}
+
+/* Menu List */
+.head-menu{
+    line-height: 80px;
+}
+
+.links{
+    list-style-type: none;
+    text-align: center;
+}
+
+.links li{
+    display: inline-block;
+    margin: auto 25px;
+}
+
+.links a{
+    color: white;
+}
+
+/* Login */
+.login{
+    text-align: right;
+}
+
+.login a{
+    color: black;
+    background-color: white;
+    border-radius: 80px;
+    padding: 12px 15px;
+}
+
