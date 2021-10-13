@@ -112,6 +112,7 @@ header{
 .banner{
     position: relative;
     height: 700px;
+    margin-bottom: 150px;
 }
 
 .banner img{
@@ -121,9 +122,8 @@ header{
 }
 
 .banner-text{ 
-    position: absolute;  
-    width: 45%; 
-    top: 50%; 
+    position: absolute;   
+    top: 45%; 
     left: 50%; 
     transform: translate(-50%, -50%);
     color: white;
@@ -155,20 +155,54 @@ h1{
 }
 
 /* Sezioni a colonne */
+.img-col{
+    width: 65%;
+    position: relative;
+}
+
+.img-col-content{
+    width: 70%;
+    position: relative;
+    left: 140px;
+}
+
+.img-col-content img{
+    position: relative;
+    bottom: 30px;
+}
+
+.text-col{
+    width: 35%;
+    text-align: left;
+}
+
+.text-col .text-col-content{
+    width: 80%;
+}
+
+.text-col-content h2{
+    font-size: 50px;
+    margin-bottom: 30px;
+}
+
+.text-col-content p{
+    font-size: 23px;
+    line-height: 35px;
+}
+
 .section{
     position: relative;
 }
 
-.wave-section p{
-    background-color: #c7c8ca;
-}
-
-.wave{
+.top-wave{
     position: relative;
     top: 20px;
 }
 
-.box{
+.wave-section .clearfix{
     background-color: #c7c8ca;
-    height: 700px;
+}
+
+.wave-section .container{
+    padding-top: 20px;
 }
