@@ -153,3 +153,22 @@ h1{
     position: relative;
     right: 10px;
 }
+
+/* Sezioni a colonne */
+.section{
+    position: relative;
+}
+
+.wave-section p{
+    background-color: #c7c8ca;
+}
+
+.wave{
+    position: relative;
+    top: 20px;
+}
+
+.box{
+    background-color: #c7c8ca;
+    height: 700px;
+}
