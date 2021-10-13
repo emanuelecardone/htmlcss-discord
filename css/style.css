@@ -33,7 +33,11 @@ a{
 }
 
 .button{
-    
+    border-radius: 80px;
+}
+
+.button:not(:only-child){
+    margin: auto 20px;
 }
 
 .white-button{
@@ -44,22 +48,23 @@ a{
 .black-button{
     background-color: black;
     color: white;
+    font-weight: bold;
 }
 
 .small-button{
-    border-radius: 80px;
     padding: 12px 15px;
 }
 
 .large-button{
-    font-weight: bold;
+    padding: 20px 40px;
+    font-size: 20px;
 }
 
 /* HEADER*/
 
 /* Shared Header */
 header{
-    background-color: #3161e0;
+    background-color: #255ee9;
     font-size: 17px;
 }
 
@@ -101,4 +106,50 @@ header{
     text-align: right;
 }
 
+/* MAIN */
 
+/* Banner */
+.banner{
+    position: relative;
+    height: 700px;
+}
+
+.banner img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.banner-text{ 
+    position: absolute;  
+    width: 45%; 
+    top: 50%; 
+    left: 50%; 
+    transform: translate(-50%, -50%);
+    color: white;
+    text-align: center;
+}
+
+h1{
+    font-size: 60px;
+    position: relative;
+    bottom: 160px;
+}
+
+.banner-text p{
+    font-size: 30px;
+    line-height: 40px;
+    position: relative;
+    bottom: 100px;
+}
+
+.banner-buttons{
+    text-align: center;
+    position: relative;
+    bottom: 300px;
+}
+
+.banner i{
+    position: relative;
+    right: 10px;
+}
