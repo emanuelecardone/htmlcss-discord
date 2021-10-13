@@ -213,6 +213,7 @@ h1{
     padding-top: 20px;
 }
 
+/* Ultima sezione main */
 .last-section .end-main{
     text-align: center;
 }
@@ -226,7 +227,7 @@ h1{
     background-repeat: no-repeat;
     background-position: top;
     background-size: contain;
-    width: 42%;
+    width: 33%;
     margin: auto;
 }
 
@@ -236,10 +237,94 @@ h1{
     vertical-align: bottom;
 }
 
-h3{
+main h3{
     font-size: 30px;
 }
 
 .last-main-button{
     padding-bottom: 150px;
+}
+
+/* FOOTER */
+footer{
+    background-color: #23272a;
+    font-weight: bold;
+    color: white;
+}
+
+footer .container{
+    padding-top: 100px;
+}
+
+.lightblue-title{
+    color: #7289da;
+}
+
+.ita{
+    margin-top: 30px;
+}
+
+#logo-ita{
+    width: 20px;
+    border-radius: 2px;
+}
+
+.logo-list-container{
+    margin-top: 20px;
+}
+
+footer ul{
+    list-style-type: none;
+}
+
+.logo-list li{
+    display: inline-block;
+    margin: auto 10px;
+}
+
+.logo-list li:first-child{  
+    margin-left: 0;
+}
+
+.large-footer-col{
+    width: 30%;
+}
+
+.small-footer-col{
+    width: calc(70% / 4);
+}
+
+footer a:not(.lightblue-title){
+    color: white;
+}
+
+.small-footer-col li{
+    line-height: 30px;
+}
+
+footer h3{
+    font-size: 40px;
+}
+
+.suggestions{
+    margin-bottom: 30px;
+}
+
+hr{
+    border: 1px solid #4a5882;
+    margin-bottom: 40px;
+}
+
+.half-page-col{
+    width: 50%;
+    position: relative;
+}
+
+.half-page-col a{
+    position: absolute;
+    right: 0;
+}
+
+.end-footer{
+    padding-bottom: 120px;
 }
